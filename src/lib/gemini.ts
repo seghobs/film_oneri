@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyA8pMdA2LnKnIMa44Budqx9tgO_teVrOic');
+const genAI = new GoogleGenerativeAI('Buraya Token Gir');
 const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 
 export async function getMovieRecommendations(prompt: string) {
